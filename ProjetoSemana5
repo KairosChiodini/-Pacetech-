@@ -9,10 +9,10 @@ temperatura, horario: vetor[1..4] de real
 procedimento menu()
 inicio
    escreval()
-   escreval("1 - Celsius para fahrenheit")
-   escreval("2 - Fahrenheit para celsius")
+   escreval("1 - Celsius/Fahrenheit")
+   escreval("2 - Fahrenheit/Celsius")
    escreval("3 - Finalizar")
-   escreva("Escolha a opção desejada: ")
+   escreva("Escolha a opção: ")
    leia(op)
    limpatela
 fimprocedimento

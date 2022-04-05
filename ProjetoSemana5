@@ -32,7 +32,7 @@ fimprocedimento
 
 procedimento converter()
 inicio
-metodoBolha()
+MetBolha()
 
 se ( op = "1" ) entao
    para k de 1 ate 4 faca
@@ -77,7 +77,7 @@ repita
       caso "3"
       outrocaso
          escreval()
-         escreval("Opção inválida. Tente novamente")
+         escreval("Algo deu errado")
    fimescolha
 ate op = "3"
 
